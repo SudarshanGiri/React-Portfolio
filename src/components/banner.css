@@ -1,0 +1,35 @@
+.banner{
+    background: url(../images/banner.jpg) no-repeat center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+.banner::before{
+    background:rgba(0,0,0,0.7);
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.banner .overlay{
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.banner .photo{
+    background: url('http://sudarshangiri7.com.np/images/myphoto.jpg') no-repeat center;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+
+}
